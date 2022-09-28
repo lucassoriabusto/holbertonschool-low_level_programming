@@ -1,2 +1,2 @@
 #!/bin/bash
-pcc -E $CFILE -o o
+pcc -E $CFILE -o .o
