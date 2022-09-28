@@ -1,2 +1,2 @@
 #!/bin/bash
-pcc -c $CFILE > ${CFILE::-2}".o"
+pcc -c $CFILE
