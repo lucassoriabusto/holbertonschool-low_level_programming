@@ -12,7 +12,7 @@
 	long long int longlonginttype;
        	float floattype;
 
-|int main(void)
+int main(void)
 {
 	printf("Size of a char: %zu bytes\n", sizeof(chartype));
 	printf("Size of an int: %zu bytes\n", sizeof(inttype));
