@@ -6,18 +6,18 @@
  * Return: Always 0 (Success)
  */
 
-        char
-	int
-	long int
-	long long int
-       	float
+        char chartype;
+	int inttype;
+	long int longinttype;
+	long long int longlonginttype;
+       	float floattype;
 
 |int main(void)
 {
-	printf("Size of a char: %zu bytes\n", sizeof(char));
-	printf("Size of an int: %zu bytes\n", sizeof(int));
-	printf("Size of a long int: %zu bytes\n", sizeof(long int));
-	printf("Size of a long long int: %zu bytes\n", sizeof(long long int));
-	printf("Size of a float: %zu bytes\n", sizeof(float));
+	printf("Size of a char: %zu bytes\n", sizeof(chartype));
+	printf("Size of an int: %zu bytes\n", sizeof(inttype));
+	printf("Size of a long int: %zu bytes\n", sizeof(longinttype));
+	printf("Size of a long long int: %zu bytes\n", sizeof(longlonginttype));
+	printf("Size of a float: %zu bytes\n", sizeof(floattype));
 return (0);
 }
