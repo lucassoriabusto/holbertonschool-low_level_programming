@@ -1,8 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - description
+ *
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
@@ -15,4 +17,5 @@ int main(void)
 		printf("%i is zero\n", n);
 	else
 		print("%i is negative\n", n);
+	return (0);
 }
