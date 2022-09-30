@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * main - description
  *
@@ -9,7 +9,9 @@ int main(void)
 	char n;
 
 	for (n = 'a' ; n <= 'z' ; ++n)
-	putchar (n);
-	putchar ('\n');
+	{
+		putchar(n);
+	}
+	putchar(10);
 	return (0);
 }
