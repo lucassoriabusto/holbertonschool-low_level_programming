@@ -16,7 +16,7 @@ int main(void)
 		{
 		_putchar(n);
 		}
-	_putchar('\n');
-	i++;
+		_putchar('\n');
+		i++;
 	}
 }
