@@ -13,7 +13,7 @@ char *_strdup(char *str);
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog2 = NULL;
-	
+
 	dog2 = malloc(sizeof(dog_t));
 	if (dog2 != NULL)
 	{
@@ -37,7 +37,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 
 
-/*
+/**
  * _strlen - function that returns the length of a string.
  * @s: pointer to check
  *
@@ -47,7 +47,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 int _strlen(char *s)
 {
 	int len = 0;
-	
+
 	while (*s)
 	{
 		len++;
@@ -74,7 +74,7 @@ char *_strdup(char *str)
 {
 	char *res = NULL;
 	int i = 0;
-	
+
 	if (str != NULL)
 		res = malloc(_strlen(str) + 1);
 	if (res != NULL)
